@@ -70,7 +70,7 @@ VALUES (101, 'John Doe', 234, 'john.doe@email.com', 'Male', 'Mathematics', 750),
 		  SELECT *
           FROM teacher
           full OUTER JOIN Department ON teacher.tec_id = Department.dep_id;
-
+		  ----------------------------------------------------------------------------------------------------
 
 
 
